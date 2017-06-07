@@ -1,0 +1,17 @@
+{% load static %}
+
+<html>
+    
+<head>
+  <title>{% block title %}Ivan - Di Benedetto (default){% endblock %}</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'ivan/css/style.css' %}" />
+</head>
+
+<body>
+  <p>
+    {% block saluto %} (default){% endblock %}
+  </p>
+</body>
+</html>
+
+	

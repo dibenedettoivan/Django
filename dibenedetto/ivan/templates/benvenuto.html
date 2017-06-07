@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{ cntx.Cognome }} - {{ cntx.Nome }}
+{% endblock %}
+
+{% block saluto %}
+    {{ cntx.Saluto }}  {{ cntx.Cognome }}  {{cntx.Nome}} <br> {{cntx.Ora}}
+{% endblock %}
+
+    
+
